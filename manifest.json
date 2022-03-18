@@ -1,0 +1,22 @@
+{
+
+  "manifest_version": 2,
+  "name": "Synergia Redux",
+  "version": "1.0",
+
+  "description": "Ulepsz swojego Librusa! Wtyczka pozwala na zmianę wyglądu Librusa, od kolorów ocen do czcionki!",
+  "homepage_url": "https://natangrygiel.pl",
+
+  "icons": {
+    "48": "icons/logo48.png",
+    "96": "icons/logo96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://synergia.librus.pl/*"],
+      "js": ["theme/classic/synergia_redux.js"]
+    }
+  ]
+
+}

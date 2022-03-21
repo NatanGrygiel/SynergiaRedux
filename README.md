@@ -1,4 +1,4 @@
-# kron0s
+# SynergiaRedux
 Zmień wygląd swojego e-dziennika! Wtyczka umożliwia zmianę praktycznie wszystkiego, od kolorów ocen aż do czcionki!
 
 ## Instalacja
